@@ -1,0 +1,19 @@
+class String:
+    def __init__(self):
+        self.string = str()
+
+
+    def getString(self):
+        self.string=input("Enter a string: ")
+
+    def printString(self):
+        print(self.string.upper())
+
+
+def simple():
+    s=String()
+    s.getString()
+    s.printString()
+
+if __name__=='__main__':
+    simple()
